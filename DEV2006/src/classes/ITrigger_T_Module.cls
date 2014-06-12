@@ -8,4 +8,5 @@ public class ITrigger_T_Module extends ITrigger.Module {
 	public override void initAfterUpdate()   { Context.addAll(NList); }
 	public override void initAfterDelete()   { Context.addAll(OList); }
 	public override void initAfterUndelete() { Context.addAll(NList); }
+	
 }
